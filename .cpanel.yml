@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/newweservio_newweservio/public_html/
+    - /bin/cp * $DEPLOYPATH
+    
